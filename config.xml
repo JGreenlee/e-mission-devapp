@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="41" id="edu.berkeley.eecs.emission.devapp" ios-CFBundleVersion="41" version="2.9.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="46" id="edu.berkeley.eecs.emission" ios-CFBundleVersion="44" version="3.2.3" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>em-devapp</name>
     <description>
         The emission Developer app is a clone of the PhoneGap Developer app with the emission plugins. It is a testing utility for web developers and designers using the emission platform. After installing this app on your device or simulator you will be able to use phonegap serve to autorefresh without re-deploying the app everytime.
@@ -83,7 +83,7 @@
     </platform>
     <platform name="android">
         <preference name="android-minSdkVersion" value="22" />
-        <preference name="android-targetSdkVersion" value="29" />
+        <preference name="android-targetSdkVersion" value="30" />
         <preference name="AndroidXEnabled" value="true" />
         <resource-file src="google-services.json" target="app/google-services.json" />
         <!-- <hook src="hooks/before_build/android/android_set_provider.js" type="before_build" /> -->
